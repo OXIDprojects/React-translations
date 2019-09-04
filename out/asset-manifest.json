@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "http://localhost/modules/oxcom/react-translations/out/static/css/main.d5501e7e.chunk.css",
+    "main.js": "http://localhost/modules/oxcom/react-translations/out/static/js/main.18aa35bc.chunk.js",
+    "main.js.map": "http://localhost/modules/oxcom/react-translations/out/static/js/main.18aa35bc.chunk.js.map",
+    "runtime~main.js": "http://localhost/modules/oxcom/react-translations/out/static/js/runtime~main.ce56b46c.js",
+    "runtime~main.js.map": "http://localhost/modules/oxcom/react-translations/out/static/js/runtime~main.ce56b46c.js.map",
+    "static/css/2.fa4a79a6.chunk.css": "http://localhost/modules/oxcom/react-translations/out/static/css/2.fa4a79a6.chunk.css",
+    "static/js/2.cb1fc584.chunk.js": "http://localhost/modules/oxcom/react-translations/out/static/js/2.cb1fc584.chunk.js",
+    "static/js/2.cb1fc584.chunk.js.map": "http://localhost/modules/oxcom/react-translations/out/static/js/2.cb1fc584.chunk.js.map",
+    "index.html": "http://localhost/modules/oxcom/react-translations/out/index.html",
+    "precache-manifest.fca48662a444b6f0f94f0d0ae14951bc.js": "http://localhost/modules/oxcom/react-translations/out/precache-manifest.fca48662a444b6f0f94f0d0ae14951bc.js",
+    "service-worker.js": "http://localhost/modules/oxcom/react-translations/out/service-worker.js",
+    "static/css/2.fa4a79a6.chunk.css.map": "http://localhost/modules/oxcom/react-translations/out/static/css/2.fa4a79a6.chunk.css.map",
+    "static/css/main.d5501e7e.chunk.css.map": "http://localhost/modules/oxcom/react-translations/out/static/css/main.d5501e7e.chunk.css.map"
+  }
+}

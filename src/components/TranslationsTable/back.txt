@@ -1,0 +1,46 @@
+import React from 'react';
+import { useTranslationsQuery, useUpdateTranslationMutation } from '../../graphql/generated/graphql';
+import TranslationsTable from './TranslationsTable';
+import CircularProgress from '@material-ui/core/CircularProgress';
+
+interface OwnProps {
+    languageKey: string,
+    languageName: string
+}
+
+const TranslationsTableContainer = ({ languageKey, languageName }: OwnProps) => {
+    const { data, error, loading } = useTranslationsQuery({
+        variables: { languageKey }
+    });
+
+    const mutate: any = useUpdateTranslationMutation();
+
+    const updateTranslation = React.useCallback(
+        async (translationVariables) => {
+            const result: any = await mutate({ variables: translationVariables });
+            if (result.data) {
+                console.log(result.data)
+            } else {
+                console.log('Error!')
+
+            };
+        },
+        [mutate]
+    );
+
+    if (loading) {
+        return <CircularProgress />;
+    }
+
+    if (error) {
+        return <div>Error!</div>;
+    }
+
+    if (!data) {
+        return <div>Select a Locale from the panel</div>;
+    }
+
+    return <TranslationsTable data={data} name={languageName} updateTranslation={updateTranslation} />;
+};
+
+export default TranslationsTableContainer;

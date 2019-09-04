@@ -1,0 +1,41 @@
+{
+  "name": "oxid-projects/react-translations",
+  "description": "React Translations Oxid Module",
+  "type": "oxideshop-module",
+  "keywords": [
+    "oxid",
+    "modules",
+    "eShop",
+    "react"
+  ],
+  "homepage": "https://www.oxid-esales.com",
+  "license": [
+    "GPL-3.0",
+    "proprietary"
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "oxcom/react-translations",
+      "assets-directory": "out/admin",
+      "blacklist-filter": [
+        "node_modules/**/*.*",
+        "build/**/*.*",
+        "public/**/*.*",
+        "src/**/*.*"
+      ]
+    }
+  },
+  "version": "0.0.1",
+  "require": {
+    "php": "^7.0",
+    "oxid-projects/graphql-translations": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6"
+  },
+  "autoload": {
+    "psr-4": {
+      "OxidProjects\\React\\Translations\\": "../../../source/modules/oxcom/react-translations"
+    }
+  }
+}
