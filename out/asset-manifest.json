@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "https://oxideshop.local/modules/oxcom/react-translations/out/static/css/main.2e2bb080.chunk.css",
+    "main.js": "https://oxideshop.local/modules/oxcom/react-translations/out/static/js/main.c2ae5cbd.chunk.js",
+    "main.js.map": "https://oxideshop.local/modules/oxcom/react-translations/out/static/js/main.c2ae5cbd.chunk.js.map",
+    "runtime~main.js": "https://oxideshop.local/modules/oxcom/react-translations/out/static/js/runtime~main.6654fe64.js",
+    "runtime~main.js.map": "https://oxideshop.local/modules/oxcom/react-translations/out/static/js/runtime~main.6654fe64.js.map",
+    "static/css/2.fa4a79a6.chunk.css": "https://oxideshop.local/modules/oxcom/react-translations/out/static/css/2.fa4a79a6.chunk.css",
+    "static/js/2.44120f57.chunk.js": "https://oxideshop.local/modules/oxcom/react-translations/out/static/js/2.44120f57.chunk.js",
+    "static/js/2.44120f57.chunk.js.map": "https://oxideshop.local/modules/oxcom/react-translations/out/static/js/2.44120f57.chunk.js.map",
+    "index.html": "https://oxideshop.local/modules/oxcom/react-translations/out/index.html",
+    "precache-manifest.2544a0e8b5f3e2480222ec681a00a18d.js": "https://oxideshop.local/modules/oxcom/react-translations/out/precache-manifest.2544a0e8b5f3e2480222ec681a00a18d.js",
+    "service-worker.js": "https://oxideshop.local/modules/oxcom/react-translations/out/service-worker.js",
+    "static/css/2.fa4a79a6.chunk.css.map": "https://oxideshop.local/modules/oxcom/react-translations/out/static/css/2.fa4a79a6.chunk.css.map",
+    "static/css/main.2e2bb080.chunk.css.map": "https://oxideshop.local/modules/oxcom/react-translations/out/static/css/main.2e2bb080.chunk.css.map"
+  }
+}

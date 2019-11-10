@@ -1,0 +1,15 @@
+overwrite: true
+schema:
+  - http://oxideshop.local/graphql/:
+      headers:
+        Authorization: Bearer {$REACT_APP_ACCESS_TOKEN}
+documents: ./src/components/**/*.ts
+generates:
+  src/graphql/generated/graphql.tsx:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo
+    config:
+      withHooks: true,
+      reactApolloVersion: 3
