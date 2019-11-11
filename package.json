@@ -1,7 +1,7 @@
 {
   "name": "react-translations",
   "version": "1.0.0",
-  "proxy": "https://localhost",
+  "proxy": "https://oxideshop.local",
   "dependencies": {
     "@apollo/react-common": "^3.0.0",
     "@apollo/react-components": "^3.0.0",
@@ -45,7 +45,7 @@
     "build": "rm -rf out/ && react-scripts build && mv build out",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "codegen": "graphql-codegen --config codegen.yml"
+    "codegen": "NODE_ENV=development graphql-codegen --config codegen.yml"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d74cbf965f660d615b2f4f2c982af1ff",
+    "revision": "7609d83035da86c2640f4e46f1ddf5c7",
     "url": "https://oxideshop.local/modules/oxcom/react-translations/out/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://oxideshop.local/modules/oxcom/react-translations/out/static/css/2.fa4a79a6.chunk.css"
   },
   {
-    "revision": "55924dff9445687ddbb5",
+    "revision": "612cbe1e25d4516d90ac",
     "url": "https://oxideshop.local/modules/oxcom/react-translations/out/static/css/main.2e2bb080.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://oxideshop.local/modules/oxcom/react-translations/out/static/js/2.44120f57.chunk.js"
   },
   {
-    "revision": "55924dff9445687ddbb5",
-    "url": "https://oxideshop.local/modules/oxcom/react-translations/out/static/js/main.c2ae5cbd.chunk.js"
+    "revision": "612cbe1e25d4516d90ac",
+    "url": "https://oxideshop.local/modules/oxcom/react-translations/out/static/js/main.d14c112d.chunk.js"
   },
   {
     "revision": "e06b860f64c525935927",

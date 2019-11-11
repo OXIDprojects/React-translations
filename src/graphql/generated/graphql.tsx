@@ -17,7 +17,7 @@ export type Scalars = {
 
 export type Language = {
    __typename?: 'Language',
-  id?: Maybe<Scalars['ID']>,
+  id: Scalars['ID'],
   name: Scalars['String'],
   key: Scalars['String'],
   isActive: Scalars['Boolean'],
@@ -27,7 +27,7 @@ export type Language = {
 export type Mutation = {
    __typename?: 'Mutation',
   translationUpdate: Translation,
-  translationReset: Scalars['Boolean'],
+  translationReset: Translation,
   translationResetAll: Scalars['Boolean'],
 };
 
@@ -126,7 +126,10 @@ export type TranslationResetMutationVariables = {
 
 export type TranslationResetMutation = (
   { __typename?: 'Mutation' }
-  & Pick<Mutation, 'translationReset'>
+  & { translationReset: (
+    { __typename?: 'Translation' }
+    & Pick<Translation, 'key' | 'value'>
+  ) }
 );
 
 export type TranslationResetAllMutationVariables = {
@@ -259,7 +262,10 @@ export type TranslationUpdateMutationResult = ApolloReactCommon.MutationResult<T
 export type TranslationUpdateMutationOptions = ApolloReactCommon.BaseMutationOptions<TranslationUpdateMutation, TranslationUpdateMutationVariables>;
 export const TranslationResetDocument = gql`
     mutation TranslationReset($languageKey: ID!, $key: ID!) {
-  translationReset(languageKey: $languageKey, key: $key)
+  translationReset(languageKey: $languageKey, key: $key) {
+    key
+    value
+  }
 }
     `;
 export type TranslationResetMutationFn = ApolloReactCommon.MutationFunction<TranslationResetMutation, TranslationResetMutationVariables>;

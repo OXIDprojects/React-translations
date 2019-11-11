@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://oxideshop.local/modules/oxcom/react-translations/out/precache-manifest.2544a0e8b5f3e2480222ec681a00a18d.js"
+  "https://oxideshop.local/modules/oxcom/react-translations/out/precache-manifest.f3e9659b870020d74aa27d6557dacfa4.js"
 );
 
 self.addEventListener('message', (event) => {

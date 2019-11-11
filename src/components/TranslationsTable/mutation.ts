@@ -14,7 +14,10 @@ export const MUTATION_TRANSLATION_UPDATE = gql`
 
 export const MUTATION_TRANSLATION_RESET = gql`
   mutation TranslationReset($languageKey: ID!, $key: ID!) {
-    translationReset(languageKey: $languageKey, key: $key)
+    translationReset(languageKey: $languageKey, key: $key) {
+      key
+      value
+    }
   }
 `;
 

@@ -167,7 +167,8 @@ const TranslationsTable: React.FC<Props> = ({ className, ...rest }) => {
                   const updateData = [...tableData];
                   const { data } = mutationResult;
                   if (data) {
-                    updateData[tableData.indexOf(oldData)] = oldData;
+                    updateData[tableData.indexOf(oldData)] =
+                      data.translationReset;
                     setTableData(updateData);
                     resolve();
                   }

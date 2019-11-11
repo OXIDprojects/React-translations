@@ -12,10 +12,13 @@ declare global {
     token: any;
   }
 }
-
+const token = process.env.REACT_APP_ACCESS_TOKEN;
+console.log(token);
 const httpLink = createHttpLink({
   uri: process.env.REACT_APP_GRAPHQL_ENDPOINT,
-  headers: { Authorization: `Bearer ${window.token}` }
+  headers: {
+    Authorization: `Bearer ${token ? token : window.token}`
+  }
 });
 
 const client = new ApolloClient({

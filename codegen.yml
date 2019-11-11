@@ -2,7 +2,7 @@ overwrite: true
 schema:
   - http://oxideshop.local/graphql/:
       headers:
-        Authorization: Bearer {$REACT_APP_ACCESS_TOKEN}
+        Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOlwvXC9veGlkZXNob3AubG9jYWxcLyIsImF1ZCI6Imh0dHA6XC9cL294aWRlc2hvcC5sb2NhbFwvIiwiaWF0IjoxNTczNDY0MTMyLCJuYmYiOjE1NzM0NjQxMzIsImV4cCI6MTU3MzQ5MjkzMiwic2hvcGlkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZ3JvdXAiOiJhZG1pbiJ9.VFVc3-Z9EkSSoKVi736xok_DI_5To0ssa7XfNLp63O3R0DEwB43GQQ43JLk-bjvUx4fwEkse-V_XJWzhTOqjig
 documents: ./src/components/**/*.ts
 generates:
   src/graphql/generated/graphql.tsx:
