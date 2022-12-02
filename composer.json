@@ -2,7 +2,6 @@
   "name": "oxid-community/react-translations",
   "description": "React Translations Oxid Module",
   "type": "oxideshop-module",
-  "version": "1.0.0",
   "keywords": [
     "oxid",
     "modules",
@@ -28,7 +27,7 @@
   },
   "require": {
     "php": "^7.4 || ^8.0",
-    "oxid-community/graphql-translations": "^1.0"
+    "oxid-community/graphql-translations": "dev-b-6.5.x"
   },
   "require-dev": {
     "phpunit/phpunit": "~6"
